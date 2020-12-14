@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-14T16:07:57 IST" name="Suite" finished-at="2020-12-14T16:08:42 IST" duration-ms="44821">
+    <groups>
+    </groups>
+    <test started-at="2020-12-14T16:07:57 IST" name="Test" finished-at="2020-12-14T16:08:42 IST" duration-ms="44821">
+      <class name="Wahoo.WahooFitnessTest.RandomProductTest">
+        <test-method is-config="true" signature="navigationtoHomePage()[pri:0, instance:Wahoo.WahooFitnessTest.RandomProductTest@1e67a849]" started-at="2020-12-14T16:06:31 IST" name="navigationtoHomePage" finished-at="2020-12-14T16:07:57 IST" duration-ms="86292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationtoHomePage -->
+      </class> <!-- Wahoo.WahooFitnessTest.RandomProductTest -->
+      <class name="Wahoo.WahooFitnessTest.CheckoutTest">
+        <test-method signature="placeOrder()[pri:0, instance:Wahoo.WahooFitnessTest.CheckoutTest@36f0f1be]" started-at="2020-12-14T16:08:34 IST" name="placeOrder" finished-at="2020-12-14T16:08:42 IST" duration-ms="7466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+      </class> <!-- Wahoo.WahooFitnessTest.CheckoutTest -->
+      <class name="Wahoo.WahooFitnessTest.RemoveViewEditCartTest">
+        <test-method signature="removeItem()[pri:1, instance:Wahoo.WahooFitnessTest.RemoveViewEditCartTest@667a738]" started-at="2020-12-14T16:07:57 IST" name="removeItem" finished-at="2020-12-14T16:07:59 IST" duration-ms="2449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItem -->
+        <test-method signature="viewAndEditCart()[pri:2, instance:Wahoo.WahooFitnessTest.RemoveViewEditCartTest@667a738]" started-at="2020-12-14T16:07:59 IST" name="viewAndEditCart" finished-at="2020-12-14T16:08:34 IST" duration-ms="34865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAndEditCart -->
+      </class> <!-- Wahoo.WahooFitnessTest.RemoveViewEditCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

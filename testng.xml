@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+
+
+		<classes>
+			<!-- <class name="Wahoo.WahooFitnessTest.AppTest"/> -->
+			<class name="Wahoo.WahooFitnessTest.RandomProductTest" />
+			<class name="Wahoo.WahooFitnessTest.RemoveViewEditCartTest" />
+			<class name="Wahoo.WahooFitnessTest.CheckoutTest">
+				<methods>
+					<exclude name="placeOrder" />
+
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
